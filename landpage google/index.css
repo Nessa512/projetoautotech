@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contain {
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding: 6px 0px;
+}
+
+.contain a {
+    margin-right: 10px;
+}
+
+.contain button {
+    margin-right: 10px;
+}
+
+.head a {
+    color: black;
+    text-decoration: none;
+}
+.head a :hover {
+    text-decoration: dashed;
+}
+
+
+#border {
+    border: 1px solid green;
+}
+
+div.row div.d-flex {
+    justify-content: center;
+    align-items: center;
+}
+
+.google-logo {
+    padding-bottom: 30px;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#cam {
+    width: 20px;
+    height: 20px;
+    margin-left: -32px;
+}
+
+.main {
+    position: relative;
+    width: 561px;
+    margin-bottom: 200px;
+    margin-top: 20px;
+}
+
+.input{
+    padding: 1px 71px 1px 48px;
+    width: 580px;
+    height: 44px;
+    border-radius: 30px;
+    border:1px solid #ccc ;
+    outline: none;
+    font-size: 16px;
+
+}
+
+.input :hover {
+    border: 1px solid transparent;
+    box-shadow: 0px 1px 10px #ccc;
+}
+
+#iconl {
+    position: absolute;
+    margin-right: 520px;
+}
+
+#iconr {
+    position: absolute;
+    margin-left: 470px;
+}
+
+.main img {
+    width: 20px;
+    height: 20px;
+}
