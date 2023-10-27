@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Faça login nas capcontas do Google</title>
     <link rel="stylesheet" href="./login.css" />
-    <link rel="icon" href="./components/image/google.png" />
+    <link rel="icon" href="./components/image/iconcapivara.png" />
   </head>
   <body>
     <div class="box">
@@ -56,6 +56,7 @@
           </svg>
         </div>
       </div>
+      <!--<img src="capigoogle.jpg" alt="capigoogle"> logo capitech-->
       <h2>Fazer caplogin</h2>
       <p id="p_cima">Use sua capconta do Google</p>
       <form>
@@ -67,29 +68,27 @@
             required=""
             onkeyup="this.setAttribute('value', this.value);"
             value=""
+            placeholder="Cape-mail ou capfone"
           />
-          <label>Cape-mail ou capfone</label>
-        </div>
-        <div class="forgot">
-          <button type="button">Esqueceu seu cape-mail?</button>
-        </div>
-        <div>
+          <div class="inputBox">
+            <input
+              id="password"
+              type="password"
+              name="senha"
+              required=""
+              onkeyup="this.setAttribute('value', this.value);"
+              value=""
+              placeholder="Senha"
+            />
+          </div>
           <p id="p_baixo">
             Não está no seu computador, capiman ou capigirl? Use o modo
             visitante para fazer caplogin com privacidade.
-            <a href="#">Saiba mais</a>
+            <a href="./login2.html">Saiba mais</a>
           </p>
         </div>
 
-        <input id="logar" type="submit" name="logar" value="Avançar" />
-        <div id="criar_conta1">
-          <input
-            id="criar_conta2"
-            type="submit"
-            name="criar_conta"
-            value="Criar capconta"
-          />
-        </div>
+        <input id="logar" type="submit" name="logar" value="Entrar" />
       </form>
     </div>
   </body>

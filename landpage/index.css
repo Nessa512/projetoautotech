@@ -59,7 +59,7 @@ faz com que todo o menu do header left e right fiquem separados*/
     cursor: pointer;
 }
 
-/*parte do arthur
+/*parte do Artur
 relacionado ao cabecalho*/
 header {
     position: relative;
@@ -75,12 +75,18 @@ div.row div.d-flex {
 .google-logo {
     padding-bottom: 30px;
 }
+
+.google-logo img {
+    height: 200px;
+}
+
 /*relacionado ao google*/
 main {
     position: relative;
     width: 100%;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
 }
 /*relacionada a barra de pesquisa*/
 #cam {

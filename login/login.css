@@ -7,6 +7,19 @@ body {
   display: flex;
 }
 
+#password {
+  text-align: inherit;
+
+  width: 93%;
+  padding: 0.625rem 10px;
+  font-size: 1rem;
+  letter-spacing: 0.062rem;
+  margin-bottom: 1.875rem;
+  border: 1px solid #ccc;
+  background: transparent;
+  border-radius: 4px;
+}
+
 .box {
   position: absolute;
   top: 50%;
